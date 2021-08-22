@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/fooditems",
+      "handler": "fooditem.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/fooditems/count",
+      "handler": "fooditem.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/fooditems/:id",
+      "handler": "fooditem.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/fooditems",
+      "handler": "fooditem.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/fooditems/:id",
+      "handler": "fooditem.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/fooditems/:id",
+      "handler": "fooditem.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
